@@ -1,0 +1,42 @@
+* {
+    font-family: "Montserrat", sans-serif;    
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;    
+    color: #000000;
+}
+
+.hero-titulo, h1, .logo {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-size: 4rem;
+    color: #fff;
+}
+
+h2, h3, h4, h5, h6, p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.index-header {
+    background-image: url("../../img/headerBackground.jpg");
+    background-size: cover;
+    background-position-x: 70%;
+    background-position-y: 12%;
+    height: 95vh;
+}
+
+.index-header-contenedor-inferior {
+    @extend %flexColumnCentradoVertical;
+    height: 100%;
+}
+
+.index-header-btn-contactar {
+    transition: transform 0.4s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
