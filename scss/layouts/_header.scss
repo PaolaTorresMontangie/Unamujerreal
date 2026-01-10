@@ -6,20 +6,11 @@
     color: #000000;
 }
 
-.hero-titulo, h1, .logo {
+.hero-tituloSitio, h1, .logo {
     font-family: "Italianno", cursive;
     font-weight: 400;
     font-size: 4rem;
-    color: #fff;
 }
-
-h2, h3, h4, h5, h6, p {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
 .index-header {
     background-image: url("../../img/headerBackground.jpg");
     background-size: cover;
@@ -28,12 +19,22 @@ h2, h3, h4, h5, h6, p {
     height: 95vh;
 }
 
-.index-header-contenedor-inferior {
+.index-header-contenedor-inferior {    
     @extend %flexColumnCentradoVertical;
+    justify-content: center;    
     height: 100%;
+    padding: 3rem 1rem 3rem 1rem;
+    gap: 3rem;
 }
 
 .index-header-btn-contactar {
+    width: 80%;
+    max-width: 25rem;
+    border: 1px solid rgb(168, 17, 42);
+    padding: 0.5rem;
+    border-radius: 0.5rem;        
+    background-color: rgba(245, 231, 233, 0.993);
+
     transition: transform 0.4s;
 
     &:hover {

@@ -1,0 +1,12 @@
+.secciones-titulo {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-thickness: 0.01rem;
+}
+
+.index-servicios-container-flex {
+    @extend %flexRowCentradoVertical;       
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: stretch;
+}

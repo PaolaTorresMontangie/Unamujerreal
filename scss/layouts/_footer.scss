@@ -1,0 +1,13 @@
+.index-footer {
+    background-color: #ccc;
+    height: 10rem;
+
+    img {
+        width: 3rem;
+    }
+}
+
+.index-footer-flex-container {
+    @extend %flexRowCentradoVertical;
+    gap: 1rem;
+}
