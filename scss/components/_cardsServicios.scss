@@ -1,3 +1,10 @@
+/* componenente servicios *****************/
+.index-servicios-container-flex {
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
 .index-servicio-card {
     @extend %flexColumnCentradoVertical; //  esto lo agregue yo
     justify-content: flex-start; /* distinto a otros */   
