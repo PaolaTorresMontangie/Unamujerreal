@@ -28,7 +28,8 @@
 }
 
 .index-header {
-  background-image: url("../img/imagenfondo.jpg");
+  /* modifico la ruta para que funcione en css */
+  background-image: url("../img/headerBackground.jpg");
   background-size: cover;
   background-position-x: 70%;
   background-position-y: 12%;
